@@ -32,11 +32,28 @@
 
   <section class="faq-list">
     <div class="row column medium-10 large-8 xxlarge-6">
-      <dl>
-      
-        <dt>Q: WE CAN ADD QUESTIONS HERE</dt>
-        <dd>A: AND ANSWERS HERE,REGARDING FAQ OR THIS PROJECT.</dd>
-      </dl>
+     <dl>
+  <dt>Q: What is the main goal of this project?</dt>
+  <dd>A: To build a serverless ride-request web application using AWS services like Cognito, Lambda, API Gateway, DynamoDB, and Amplify.</dd>
+
+  <dt>Q: How is user authentication handled in this project?</dt>
+  <dd>A: User authentication is managed via Amazon Cognito, which supports sign-up, login, and email verification.</dd>
+
+  <dt>Q: What happens when a user requests a ride?</dt>
+  <dd>A: The frontend sends a request to API Gateway, which invokes a Lambda function that selects a unicorn and stores ride data in DynamoDB.</dd>
+
+  <dt>Q: How is the backend deployed and updated?</dt>
+  <dd>A: The backend is deployed using AWS Amplify, which automatically rebuilds and redeploys the app on every GitHub commit.</dd>
+
+  <dt>Q: What programming language is used for the backend logic?</dt>
+  <dd>A: The backend Lambda function is written in Node.js (JavaScript).</dd>
+
+  <dt>Q: Is the frontend integrated with the backend?</dt>
+  <dd>A: Yes, the frontend (HTML/CSS/JS) communicates with the backend via API Gateway using JWT tokens for secure interaction.</dd>
+
+  <dt>Q: What database is used to store ride information?</dt>
+  <dd>A: Ride data is stored in Amazon DynamoDB, a fully managed NoSQL database service.</dd>
+</dl>
     </div>
   </section>
 
